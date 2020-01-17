@@ -7,12 +7,29 @@
     <script src="libraries/p5.js"></script>
     <script src="libraries/p5.sound.js"></script>
     <script src="sketch.js"></script>
+    <style>
+      .button {
+        border: 10px solid black;
+        padding: 0px;
+      }
+      .busy {
+  cursor:progress;
+}
+    </style>
   </head>
 
-  <body>
-<h1> Hi </h1>
+  <body style="background-color:powderblue;">
+    <h1> Hey there! </h1>
+    <p> Do you need some computer techno-gizmo thing to help you through your day? </p>
 
+    <button class="button"><a href="https://lwhs.myschoolapp.com/app/student#directory/304"><img class="irc_mi" src="https://media.thetab.com/uploads/2019/11/text-1.jpeg" alt="Image result for boomer" width="450" height="236" style=""></a></button>
+    <button class="button" onclick="busy()"> bean man</button>
 
+    <script>
+      function busy() {
+        class="button busy";
+      }
+</script>
   </body>
 
 
